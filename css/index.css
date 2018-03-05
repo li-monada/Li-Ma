@@ -2,7 +2,7 @@
 body {
   font-family: helvetica, sans-serif;
 }
-#prelaunchgiveaway {
+.jumbotron {
   text-align:center;
   background-image: url("../images/banner4.jpg");
   background-size: cover;
@@ -16,9 +16,14 @@ h1 { color: #ff0066;
 h2 { color: white;
   font-size: 30px;
 }
-small {color:white;
-font-size:15px;
+small {
+  color:white;
+  font-size:15px;
 }
+
+
+
+
 p {font-size: 30px;}
 
 ul {
@@ -27,7 +32,7 @@ ul {
 }
 
 #social-buttons {
-  align-items: center;
+  align: center;
 }
 
 .fa {
