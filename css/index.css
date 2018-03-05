@@ -1,0 +1,66 @@
+<style>
+body {
+  font-family: helvetica, sans-serif;
+}
+#prelaunchgiveaway {
+  text-align:center;
+  background-image: url("../images/banner4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90%;
+}
+h1 { color: #ff0066;
+  font-size: 50px;
+}
+h2 { color: white;
+  font-size: 30px;
+}
+small {color:white;
+font-size:15px;
+}
+p {font-size: 30px;}
+
+ul {
+  font-size:25px;
+  list-style-type: none;
+}
+
+#social-buttons {
+  align-items: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+
+
+
+
+
+</style>
