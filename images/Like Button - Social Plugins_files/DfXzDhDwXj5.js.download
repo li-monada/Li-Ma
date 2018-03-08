@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["Yj+LH"]); }
+
+__d("TabBarShim",["DOMContainer.react","React","isNode"],(function a(b,c,d,e,f,g){__p&&__p();var h=function h(i){__p&&__p();var j;if(i.children){j=i.children.map(function(l,m){if(typeof l==="object"&&typeof l.ctor==="function")return h(l);else if(c("isNode")(l)){var n=c("React").createElement(c("DOMContainer.react"),{key:"TabBarShim-"+m},l);return n}else return l});if(j.length===1)j=j[0]}var k=i.ctor;return c("React").createElement(k,i.props,j)};f.exports=h}),null);

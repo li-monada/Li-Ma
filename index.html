@@ -12,6 +12,16 @@
 
     <body class="fixed-bg">
 
+      <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
       <div id="prelaunchgiveaway" class="boxshadow">
         <div class="container">
           <img src="./images/logo.png" alt="bonnie bum logo">
@@ -31,10 +41,18 @@
        <div id='termsandconditions' class="boxshadow">
          <ul>
            <p> <strong> Follow the Steps Below to Enter:</strong></p>
-            <li> 1. Like our Facebook page</li>
-            <li> 2. Subscribe to our newsletter</li>
-            <li> 3. Enter your UK size and preferred legging choice on the form</li>
-            <li> 4. Share with your friends for extra entries</li>
+           <li> 1. Like our Facebook page.</li>
+          <div wrapper class="fb-like"
+            data-href="https://www.facebook.com/bonniebumlifestyle"
+            data-layout="standard"
+            data-action="like"
+            data-show-faces="true">
+            <p>&#8681;</p>
+            <li> 2. Subscribe to our newsletter.</li>
+            <p>&#8681;</p>
+            <li> 3. Enter your UK size and preferred legging choice on the form.</li>
+            <p>&#8681;</p>
+            <li> 4. Share with your friends for extra entries.</li>
           </ul>
 
         <div id="social-buttons">
@@ -80,9 +98,12 @@
               </label><br>
                 <input type="checkbox" id="SubscribeNews" name="subscribe" value="newsletter">
                 <label for="subscribeNews">Subscribe to newsletter?</label>
-                <input type="submit" value="ENTER">
+                <input type="submit" data-wrapper-class="custom-btn" value="ENTER" onclick="showElements(this.form);">
             </div>
           </div>
+        </div>
+        <div class="footer">
+          <p> Copyrights Lily and Ma</p>
         </div>
     </body>
   </html>
