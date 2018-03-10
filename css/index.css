@@ -106,19 +106,27 @@
     color: white;
   }
 
-  label {
-    margin-bottom: 5px;
+  label, input {
+    display:flex;
   }
+  label {
+    margin-bottom: 15px;
+
+    }
 
 
 
   div.ui-btn, input[type="submit"] {
     border:10px solid black !important;
     background-color: black !important;
+    border-radius: 5px !important;
     text-decoration:none !important;
     font-family:helvetica !important;
     font-size: 30px;
+    align-items: center !important;
     color: #ff0066 !important;
+    width: 200px !important;
+    height: 60px !important;
   }
 
   input:hover[type="submit"] {
