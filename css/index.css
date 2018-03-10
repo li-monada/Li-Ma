@@ -77,14 +77,15 @@
   #termsandconditions {
     text-align:center;
   }
-  .fa {
+  #social-buttons .fa {
     padding: 20px;
-    font-size: 50px;
+    font-size: 30px;
     width: 80px;
     display: center;
     text-align: center;
     text-decoration: none;
-    margin: px 2px;
+    margin: 2px;
+    border-radius: 50%;
   }
 
   .fa:hover {
