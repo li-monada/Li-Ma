@@ -110,15 +110,7 @@
     margin-bottom: 5px;
   }
 
-  .footer {
-      position:fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      background-color:grey;
-      color: white;
-      text-align: center;
-  }
+
 
   div.ui-btn, input[type="submit"] {
     border:10px solid black !important;
@@ -132,5 +124,119 @@
   input:hover[type="submit"] {
 			background-color: white !important;
 	}
+
+
+
+  /* FOOTER */
+
+  #myFooter {
+  	background-color: #373a48;
+  }
+
+  #myFooter .footer-copyright{
+  	background-color: #383737;
+  	padding-top:3px;
+  	padding-bottom:3px;
+  	text-align: center;
+
+  }
+
+  #myFooter .footer-copyright p{
+  	margin:10px;
+  	color: #ccc;
+    font-size: 16px;
+  }
+
+
+  #myFooter .social-networks{
+  	text-align: center;
+  	padding-top: 5px;
+  	padding-bottom: 5px;
+  }
+
+  #myFooter .social-networks a{
+      font-size: 16px;
+      margin-right: 5px;
+      margin-left: 5px;
+      color: #f9f9f9;
+      transition: 0.2s;
+  }
+
+  #myFooter .fa-3x {
+      font-size: 3em;
+  }
+
+  #myFooter .fa {
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#myFooter .social {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+  #myFooter .social-networks a:hover{
+  	text-decoration: none;
+  }
+
+  #myFooter .facebook:hover{
+  	color:#0077e2;
+  }
+
+  #myFooter .pinterest:hover{
+  	color:#ef1a1a;
+  }
+
+  #myFooter .twitter:hover{
+  	color: #00aced;
+  }
+
+  @media screen and (max-width: 767px){
+  	#myFooter {
+  		text-align: center;
+  	}
+  }
+
+
+
+  /* CSS used for positioning the footers at the bottom of the page. */
+  /* You can remove this. */
+
+
+  html{
+  	height: 100% !important;
+  }
+
+  body{
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: column;
+      -webkit-flex-direction: column;
+      height: 100%;
+  }
+
+  .content{
+  	flex: 1 0 auto;
+  	-webkit-flex: 1 0 auto;
+  	min-height: 200px;
+  }
+
+  #myFooter{
+  	flex: 0 0 auto;
+      -webkit-flex: 0 0 auto;
+  }
+
+
+
+
 
 </style>
