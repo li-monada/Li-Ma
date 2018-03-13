@@ -15,8 +15,7 @@
     /* Scale the background image to be as large as possible */
     background-size: cover;
     /* Scale the background image to be responsive on mobile */
-    width: 100%;
-  }
+    }
 
   div.boxshadow {
     background-color: rgba(255, 255, 255, 0.3);
