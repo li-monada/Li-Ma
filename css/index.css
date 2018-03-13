@@ -4,12 +4,18 @@
   }
 
   .fixed-bg {
+    /* The background image */
     background-image: url("../images/banner4.jpg");
-    min-height: 500px;
+    /* Set background image to fixed (don't scroll along with the page) */
     background-attachment: fixed;
+    /* Center the background image */
     background-position: center;
+    /* Set the background image to no repeat */
     background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
     background-size: cover;
+    /* Scale the background image to be responsive on mobile */
+    width: 100%;
   }
 
   div.boxshadow {
@@ -101,6 +107,9 @@
     color: white;
   }
 
+  .form-control { width: 100% auto;
+  }
+
   label, input {
     display:flex;
   }
@@ -109,7 +118,8 @@
 
     }
 
-
+    /* Submit button. */
+    /* You can remove this. */
 
   div.ui-btn, input[type="submit"] {
     border:10px solid black !important;
@@ -176,16 +186,16 @@
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
+  }
 
-#myFooter .social {
+  #myFooter .social {
     -webkit-transform: scale(0.8);
     -moz-transform: scale(0.8);
     -o-transform: scale(0.8);
     -webkit-transition-duration: 0.5s;
     -moz-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
-}
+  }
 
   #myFooter .social-networks a:hover{
   	text-decoration: none;
